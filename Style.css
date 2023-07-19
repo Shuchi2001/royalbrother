@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+nav{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    z-index: 1;
+}
+.headpart1{
+    border: solid 1px #fed250;
+    width: 100%;
+    height: 30px;
+    background-color: #fed250;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headpart2{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.headpart3{
+    width: 100%;
+    height: 65px;
+    border: solid 1px transparent;
+    border-bottom: .0667rem solid #efefef;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
+    display: flex;
+}
+.sy-1{
+    border: solid 1px transparent;
+    height: 65px;
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sy-1 i{
+    font-size: 28px;
+}
+.sy-2{
+    border: solid 1px transparent;
+    height: 65px;
+    width: 14%;
+    margin-left: 1%;
+    background-image: url(./Images/royal_brothers_logo-229959d7727f356b2e4fc3bd9c0c527c60127d009c93989a93e2daa0b1c2d556.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sy-3{
+    border: solid 1px transparent;
+    height: 55px;
+    width: 6%;
+    margin-left: 3%;
+    background-image: url(./Images/RBX_logo-1b800838228373b51de1f1937bfd16588b29da9e8931b472dc8f7f1592e1f43c.svg);
+    background-size: 55px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sy-3:hover{
+    background-color: #fde6a2;
+}
+.sy-4{
+    border: solid 1px transparent;
+    height: 65px;
+    width: 4%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:  1.1rem !important;
+    text-transform: initial;
+    font-weight: 400;
+}
+.sy-4:hover{
+    background-color: #fde6a2;
+}
+
+.sy-5{
+    border: solid 1px transparent;
+    height: 65px;
+    width: 12%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:  1.1rem !important;
+    text-transform: initial;
+    font-weight: 400;
+}
+.sy-5:hover{
+    background-color: #fde6a2;
+}
+.location{
+    border: solid 2px #fed250;
+    height: 40px;
+    width: 12%;
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+    font-size:  1.1rem !important;
+    text-transform: initial;
+    font-weight: 400;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+.location:hover{
+    background-color: #fde6a2;
+}
+.location select{
+    width: 80%;
+    margin-left: 10%;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+}
+.location i{
+    font-size: 20px;
+    margin-left: 10%;
+}
+.location select:hover{
+    background-color: #fde6a2;
+}
+.sy-6{
+    border: solid 1px transparent;
+    height: 65px;
+    width: 6%;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:  1.1rem !important;
+    text-transform: initial;
+    font-weight: 400;
+}
+.sy-6 span{
+    border: solid 1px transparent;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sy-6 span:hover{
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.sy-7{
+    border: solid 1px transparent;
+    height: 65px;
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:  1.1rem !important;
+    text-transform: initial;
+    font-weight: 400;
+}
+.sy-7 span{
+    border: solid 1px #fed250;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fed250;
+    border-radius: 5px;
+}
+.head-body{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 640px;
+    background-image: url(./Images/web_banner_other-8d53d78b2c136395d215d49b0206b6fb88127b622d99c9a41dcd68fcf25f061d.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 120px;
+    background-repeat: no-repeat;
+}
+.head-body-1{
+    border: solid 1px rgba(0,0,0,0.12);
+    width: 30%;
+    height: 400px;
+    margin-left: 8%;
+    margin-top: 7%;
+    border-radius: 0.6667rem;
+    transition: all 0.2s;
+    display: block;
+    background-color: #fff;
+    box-shadow: rgba(26,26,29,0.3) 0px 15px 46px -10px !important;
+    padding: 1.75rem 1.4rem 0 1.4rem;
+}
+.sy-pick{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 12%;
+    font-weight: bolder;
+    font-size: 1.64rem;
+    margin-bottom: 1.1rem;
+}
+.sy-pick1{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 30px;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.sy-pick2{
+    border: solid 1px gainsboro;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.image-1{
+    border: solid 1px transparent;
+    width: 20px;
+    height: 20px;
+    background-image: url(./Images/date_picker-a47f99418a37be9a37d050eaf8b7d58af5c05e992f3c3927069fa81fa1e21d94.svg);
+    background-repeat: no-repeat;
+    margin: auto 5px;
+}
+.date{
+    border: solid 1px transparent;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    border-right:solid 1.5px gainsboro;
+}
+.date span{
+    margin-left: 15px;
+    margin-top: 8px;
+    color: gainsboro;
+    font-size: large;
+}
+.date input{
+    width: 150px;
+    border: none;
+}
+.image-2{
+    border: solid 1px transparent;
+    width: 20px;
+    height: 20px;
+    background-image: url(./Images/time_picker-06a1542f33d605a4b4213ccac7a914edbf31f3413032affa05bdf4496a1a70b4.svg);
+    background-repeat: no-repeat;
+    margin: auto 5px;
+}
+.time{
+    width: 150px;
+    border: none;
+}
+button{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: #fed250;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.firstbox{
+    border: solid 1px transparent;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    background-image: url(./Images/Screenshot\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.secondbox{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 600px;
+    background-image: url(./Images/RBX_carousel_one-28428c3dcd0abc261dddcf1074eae711ce396a0e33584d435385a12b57796955.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.secondbox button{
+    width: 200px;
+    margin: 500px 390px;
+    border-radius: 20px;
+}
+.thirdbox{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 5px;
+    margin-bottom: 3px;
+}
+.fourthbox{
+    border: solid 2px #fed250;
+    margin: auto;
+    height: 3px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+.fifthbox{
+    border: solid 1px transparent;
+    width: 90%;
+    margin: auto;
+    height: 320px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+}
+.type1{
+    border: solid 1px transparent;
+    height: 320px;
+    width: 25%;
+    padding-top: 10px;
+    background-color: #f7fafc;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.type1 span{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 27%;
+    background-color: #f7fafc;
+}
+.type2{
+    border: solid 2px transparent;
+    width: 80%;
+    height: 200px;
+    margin: 10px auto;
+    background-image: url(./Images/HONDA_ACTIVA_3G.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-color:gainsboro;
+    background-color: #f7fafc;
+}
+.type3{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 35px; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 5px;
+    background-color: #f7fafc;
+}
+.type4{
+    border: solid 1px transparent;
+    width: 100%; 
+    height: 35px; 
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 8px;
+    background-color: #fed250;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.type2{
+    border: solid 2px transparent;
+    width: 80%;
+    height: 200px;
+    margin: 10px auto;
+    background-image: url(./Images/ROYAL_ENFIELD_CLASSIC_350.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-color:gainsboro;
+    background-color: #f7fafc;
+}
+.sixthbox{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    color: gray;
+}
+.seventhbox{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 600px;
+    background-image: url(./Images/slide-two-152ea05aae51c961ff3777509bd1e8c0f5d66fa663f8dd91625581ef7f70a264.webp);
+    background-size: cover;
+    background-position: center;
+}
+.firstdescrip{
+    border: solid 1px transparent;
+    width: 30%;
+    height: 130px;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.firstdescrip-1{
+    border: solid 1px transparent;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.firstdescrip-1 p{
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 20px;
+    color: gray;
+}
+.eighthbox{
+    border: solid 1px transparent;
+    width: 100%;
+    height: 600px;
+    background-color: #373737;
+}
+.data1{
+    border: solid 1px transparent;
+    width: 80%;
+    height: 200px;
+    margin:60px auto;
+    display: flex;
+}
+.data1-1{
+    border: solid 1px transparent;
+    width: 30%;
+    height: 200px;
+    color: white;
+}
+.data1-1 i{
+    font-size: 30px;
+}
+.data1-1 span{
+    margin-left: 20px;
+    color: gainsboro;
+}
